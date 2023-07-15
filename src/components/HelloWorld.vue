@@ -113,7 +113,7 @@ export default {
       formData.append("vedio", this.$refs.videoFile.files[0]);
       formData.append("time", this.time);
 
-      fetch("http://127.0.0.1:8000", {
+      fetch("http://13.49.241.138:8000", {
         method: "POST",
         body: formData
       })
